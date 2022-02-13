@@ -6,16 +6,13 @@ public class Company extends TaxPayer {
 	
 	public Company() {
 	}
-	
 	public Company(String name, Double anualIncome, int numberOfEmpployees) {
 		super(name, anualIncome);
 		this.numberOfEmpployees = numberOfEmpployees;
 	}
-	
-    public int getNumberOfEmpployees() {
+	public int getNumberOfEmpployees() {
 		return numberOfEmpployees;
 	}
-
 	public void setNumberOfEmpployees(int numberOfEmpployees) {
 		this.numberOfEmpployees = numberOfEmpployees;
 	}
